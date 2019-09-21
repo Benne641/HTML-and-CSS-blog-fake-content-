@@ -1,10 +1,11 @@
 body{
     font-family: Helvetica Neue, Arial;
     font-size: 18px;
+    background-image: url(test4.jpg);
 }
 
 h1, h2{
-    color: Red;
+    color: black;
     font-family: Helvetica Neue, Arial;
 }
 
@@ -18,4 +19,35 @@ h2{
 }
 p {
     text-align: justify; 
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color:#f2f2f2;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
 }
