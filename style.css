@@ -1,7 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: Helvetica Neue, Arial;
     font-size: 18px;
-    background-image: url(test4.jpg);
 }
 
 h1, h2{
@@ -11,24 +15,27 @@ h1, h2{
 
 
 h1{
-    font-size: 40px;   
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 h2{ 
     font-size: 25px;
+    margin-bottom: 10px;
 }
 p {
-    text-align: justify; 
+    text-align: justify;
+    background-color:
 }
 
-.header {
+.header { //this is the header(title)
   padding: 50px;
   text-align: center;
   color: black;
   font-size: 30px;
 }
 
-.topnav {
+.topnav {   
     background-color: gray;
     overflow: hidden;
 }
@@ -51,3 +58,59 @@ p {
   background-color: black;
   color: white;
 }
+
+html { 
+  \\background: url(test3.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author-text {
+    font-size: 22px;
+}
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
+
+
+.other-post {
+    width: 25%;
+    float: left;
+}
+
+.blogpost {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+}
+
+.blogpostpicture {
+    float:right;
+    padding-left: 50px;
+}
+
+.authorbox {
+    padding:20px;
+    border-top: 1px solid gray;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+
+
+
+
