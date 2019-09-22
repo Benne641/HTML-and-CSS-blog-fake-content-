@@ -6,33 +6,40 @@
 body{
     font-family: Helvetica Neue, Arial;
     font-size: 18px;
+    background: url("test.png") no-repeat center center fixed;
+    
+      
 }
 
 h1, h2{
-    color: black;
     font-family: Helvetica Neue, Arial;
+    color: black;
 }
 
 
 h1{
-    font-size: 40px;
+    font-size: 90px;
     margin-bottom: 20px;
+    
 }
 
 h2{ 
-    font-size: 25px;
+    font-size: 32px;
     margin-bottom: 10px;
+    
 }
 p {
     text-align: justify;
     background-color:
+    
 }
 
-.header { //this is the header(title)
+.header { \\this is the header(title)
   padding: 50px;
-  text-align: center;
-  color: black;
+  text-align: left;
+  color: white;
   font-size: 30px;
+  margin-top: 10px;
 }
 
 .topnav {   
@@ -60,7 +67,7 @@ p {
 }
 
 html { 
-  \\background: url(test3.jpeg) no-repeat center center fixed; 
+  //background: url(testbk.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,10 +77,18 @@ html {
 .main-text {
     text-align: justify;
     margin-bottom: 20px;
-}
+    font-size: 20px;
+    line-height: 150%;
+    max-width: 90ch;
+    
+ }
 
 .author-text {
     font-size: 22px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 15px;
+    
 }
 .container {
     width: 1140px;
@@ -91,15 +106,19 @@ html {
     width: 75%;
     float: left;
     padding-right: 30px;
+    color: ;
+    position: relative;
 }
 
 .blogpostpicture {
     float:right;
-    padding-left: 50px;
+    margin-left: 50px;
+    margin-top: 90px;
+    text-align: right;
 }
 
 .authorbox {
-    padding:20px;
+    padding: 20px;
     border-top: 1px solid gray;
 }
 
@@ -110,7 +129,41 @@ html {
     clear:both;
 }
 
+.other-content {
+    margin-bottom: 40px;
+    color: 
+}
 
+.authorbox img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
 
+.blogpost img{
+    height: 400px;
+    width: auto;
+    
+}
 
+.date{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    
+}
 
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.12); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  
+}
